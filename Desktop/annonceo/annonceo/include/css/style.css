@@ -1,0 +1,238 @@
+img {
+    max-width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+}
+
+
+
+/* Footer 
+footer{
+
+    
+    margin-right: 0%;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+}
+footer a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.adresse{
+    text-align: center;
+}
+
+.bas_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.titre{
+    font-size: 1.4em;
+}
+
+
+.container_infos{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+}
+#titre3{
+    font-size: 0.9em;
+    
+}
+
+@media (max-width: 1024px){
+    
+}
+
+.copyright p{
+    margin-bottom: 0;
+}
+
+/* responsive footer
+
+@media (max-width: 1024px) {
+
+
+    footer{
+        /* position: absolute; 
+        height: auto;
+        width: 100%;
+        bottom: 0;  
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .bas_page{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+       padding: 0 20px;
+        align-items: start;
+        width: 100%;
+    }
+    .titre{
+        text-align: center;
+    }
+
+    .bas_page div {
+        margin: 5px 0;
+    }
+    footer form{
+        display: flex;
+        
+    }
+    
+
+}
+@media (max-width: 768px){
+    .bas_page{
+        align-items: center;
+    }  
+    .container_infos{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+}
+/*fin du footer */
+
+
+
+
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+/*--------------------------------------------------------------------------*/
+/* css samiha */
+/* *{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+} */
+
+/* index */
+.navbar {
+    background-color: #969ea1!important;
+    
+}
+h1 {
+    font-weight: bold;
+    font-style: normal;
+}
+.div-card{
+     background-color: #e6e5e1 ;
+}
+
+/*fin du footer */
+/*deposer-annonce */
+/* .form__annonce {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.form__annonce .form-group {
+    width: 45%;
+    margin: 10px ;
+} */
+
+/* accueil reglette */
+p, label {
+    font: .8rem 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    margin: .4rem;
+    width: 200px;
+    margin-left: 0%;
+
+}
+/* deposer une annonce div Photo */
+.photo{
+     display: flex;
+     
+     margin-top: 5%;
+
+}
